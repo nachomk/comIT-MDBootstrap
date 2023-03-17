@@ -4,3 +4,8 @@
 
 **Autor**: *Mauro Daniel Viveros*  
 **Teacher**: *[Mauro Daniel Viveros (TRY Ubbe)](https://www.github.com/maurodviveros)*  
+
+
+## 📜 License
+
+MIT © 2023 [Mauro Daniel Viveros (TRY Ubbe)](https://www.github.com/maurodviveros)
