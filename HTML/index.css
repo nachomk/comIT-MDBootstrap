@@ -1,0 +1,70 @@
+body {
+    background: lightblue;
+}
+.Titulo_Pagina {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#Links {
+    margin-left: 15px;
+}
+h2 {
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.Zapatillas {
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+}
+.Balones {
+    background:orange;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+
+}
+.Remeras {
+    background: lightyellow;
+    display: inline-block;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+.Gorros {
+    background: lightgreen;
+    display: inline-block;
+    width: 190px;
+    height: 200px;
+    margin-left: 430px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#Gorra_Bulls {
+    height: 120px;
+    margin-left: 0px;
+}
+#Jordans {
+    height: 150px;
+
+}
+
+#Wilson {
+    height: 150px;
+    margin-left: 8px;
+    margin-top: 9px;
+}
+#Remera_Bulls {
+    height: 122px;
+
+    margin-bottom: 30px;
+}

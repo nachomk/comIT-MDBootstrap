@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mauro Daniel Viveros (TRY Ubbe)">
+    <meta name="description" content="Repositorio inicial de un Projecto Vanilla con MDBootstrap">
+    <meta name="keywords" content="comit, mdbootstrap, bootstrap, js, css, html, projecto">
+
+    <title>Tienda Basket</title>
+
+    <link rel="icon" href="/media/pelota.ico" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="/libs/mdb5/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="/libs/mdb5/js/mdb.min.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <header>
+      <h1 class="Titulo_Pagina">Tienda Basket</h1>
+      <div id="Links">
+      <a href="" class="Inicio">Inicio</a>
+      <a href="/Productos.html" class="Productos">Productos</a>
+      <a href="/AcercaDe.html" class="Acerca_De">Acerca de</a>
+      <a href="/FAQ.html" class="FAQ">FAQ</a>
+      <a href="/Contacto.html" class="Contacto">Contacto</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="3"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/media/kansas.jpg" class="d-block w-100" alt="Wild Landscape"/>
+          </div>
+          <div class="carousel-item">
+            <img src="/media/basket1.jpg" class="d-block w-100" alt="Camera"/>
+          </div>
+          <div class="carousel-item">
+            <img src="/media/curry.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+          </div>
+          <div class="carousel-item">
+            <img src="/media/harden.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <h2>Categorías</h2>
+
+    <div class="Zapatillas"><a href="/HTML/Productos.html">Zapatillas</a>
+      <img src="/media/jordans.jpg" alt="" id="Jordans">
+    </div>
+
+    <div class="Balones"><a href="/HTML/Productos.html">Balones</a>
+      <img src="/media/pelotaNba.jpg" alt="" id="Wilson">
+    </div>
+
+    <div class="Remeras"><a href="/HTML/Productos.html">Remeras</a>
+      <img src="/media/remeras.jpg" alt="" id="Remera_Bulls">
+    </div>
+
+    <div class="Gorros"><a href="/HTML/Productos.html">Gorros</a>
+      <img src="/media/gorra.jpg" alt="" id="Gorra_Bulls">
+    </div>
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <p class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <span>Derechos reservados &copy;</span>
+            <a class="fw-bold" href="https://www.github.com/maurodviveros" target="_blank" data-mdb-ripple-color="dark">Mauro Daniel Viveros</a>
+        </p>
+    </footer>
+</body>
+</html>
