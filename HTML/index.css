@@ -1,5 +1,8 @@
 body {
-    background: lightblue;
+    background: rgb(255, 255, 255);
+}
+.header {
+    background: #19A7CE;
 }
 .Titulo_Pagina {
     margin-left: 10px;
@@ -8,6 +11,7 @@ body {
 #Links {
     margin-left: 15px;
 }
+
 h2 {
     margin-left: 350px;
     margin-top: 30px;
@@ -37,7 +41,7 @@ h2 {
     width: 200px;
     height: 200px;
     text-align: center;
-
+    display: inline-block;
 }
 .Gorros {
     background: lightgreen;
