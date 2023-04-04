@@ -13,13 +13,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
   <link rel="stylesheet" href="/diseño/css/mdb.min.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
-  <link rel="stylesheet" href="Productos.css">
+  <link rel="stylesheet" href="Productos-Camisetas.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 
   <script src="/diseño/js/mdb.min.js" defer></script>
   <script src="./assets/js/main.js" defer></script>
 
-
-  <title>Productos</title>
+  <title>Camisetas</title>
 </head>
 
 <body>
@@ -100,8 +101,8 @@
       <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
-
   </header>
+
   <h1 id="Filtros">FILTROS</h1>
   <aside>
     <section>
@@ -111,23 +112,23 @@
     <section id="checkbox">
       <div>
         <a href="/HTML/Productos-Camisetas.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel"
-            value="" aria-label="..." /><b>Camisetas</b></a>
+            value="" aria-label="..." checked disabled /><b>Camisetas</b></a>
       </div>
       <div>
-        <a href="/HTML/Productos-Botines.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value=""
-            aria-label="..." /><b>Botines</b></a>
+        <a href="/HTML/Productos-Botines.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2"
+            value="" aria-label="..." disabled /><b>Botines</b></a>
       </div>
       <div>
-        <a href="/HTML/Productos-Pelotas.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel" value=""
-            aria-label="..." /><b>Pelotas</b></a>
+        <a href="/HTML/Productos-Pelotas.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel"
+            value="" aria-label="..." disabled /><b>Pelotas</b></a>
       </div>
       <div>
-        <a href="/HTML/Productos-Abrigos.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value=""
-            aria-label="..." /><b>Abrigos</b></a>
+        <a href="/HTML/Productos-Abrigos.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2"
+            value="" aria-label="..." disabled /><b>Abrigos</b></a>
       </div>
       <div>
         <a href="/HTML/Productos-Conjuntos.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2"
-            value="" aria-label="..." /><b>Conjuntos</b></a>
+            value="" aria-label="..." disabled /><b>Conjuntos</b></a>
       </div>
     </section>
 
@@ -207,7 +208,136 @@
 
   <section>
     <article>
-      <h3>Seleccionar la categoría que deseé comprar.</h3>
+
+      <div class="card text-center" id="producto1">
+        <div class="card-body">
+          <img src="/media/Remeras/camiJuve.jpg" alt="" id="imagen-producto1">
+          <b>
+            <p class="card-text">Camiseta Juventus Local</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto1">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto2">
+        <div class="card-body">
+          <img src="/media/Remeras/camiRiver.jpg" alt="" id="imagen-producto2">
+          <b>
+            <p class="card-text">Camiseta River Plate Local</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto2">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto3">
+        <div class="card-body">
+          <img src="/media/Remeras/adidasAmarilla.jpg" alt="" id="imagen-producto3">
+          <b>
+            <p class="card-text">Remera Adidas Amarilla</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto3">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto4">
+        <div class="card-body">
+          <img src="/media/Remeras/camiMarruecos.jpeg" alt="" id="imagen-producto4">
+          <b>
+            <p class="card-text">Camiseta Marruecos Local</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto4">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto5">
+        <div class="card-body">
+          <img src="/media/Remeras/nikeNegro.webp" alt="" id="imagen-producto5">
+          <b>
+            <p class="card-text">Remera Nike Negra</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto5">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto6">
+        <div class="card-body">
+          <img src="/media/Remeras/camiseta.jpg" alt="" id="imagen-producto6">
+          <b>
+            <p class="card-text">Camiseta de la Selección</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto6">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto7">
+        <div class="card-body">
+          <img src="/media/Remeras/adidasRosa.jpg" alt="" id="imagen-producto7">
+          <b>
+            <p class="card-text">Remera Adidas Rosa</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto7">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto8">
+        <div class="card-body">
+          <img src="/media/Remeras/remeraAdidas.jpg" alt="" id="imagen-producto8">
+          <b>
+            <p class="card-text">Remera Adidas Blanca-Negra</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto8">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto9">
+        <div class="card-body">
+          <img src="/media/Remeras/remeraAdidas2.jpg" alt="" id="imagen-producto9">
+          <b>
+            <p class="card-text">Remera Adidas Blanca/Logos Negros</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto9">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto10">
+        <div class="card-body">
+          <img src="/media/Remeras/remeraNikeG.jpg" alt="" id="imagen-producto10">
+          <b>
+            <p class="card-text">Remera Nike Gris</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto10">Comprar</a>
+        </div>
+      </div> 
+
+      <div class="card text-center" id="producto11">
+        <div class="card-body">
+          <img src="/media/Remeras/camiSanLore.jpg" alt="" id="imagen-producto11">
+          <b>
+            <p class="card-text">Remera Nike SanLorenzo</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto11">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card text-center" id="producto12">
+        <div class="card-body">
+          <img src="/media/Remeras/camiBarcelona.jp.jpeg" alt="" id="imagen-producto12">
+          <b>
+            <p class="card-text">Camiseta Barcelona Local</p>
+          </b>
+          <a href="#" class="btn btn-primary" id="boton-producto12">Comprar</a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
     </article>
   </section>
 
@@ -252,6 +382,9 @@
     </div>
     <!-- Copyright -->
   </footer>
+
+
+
 </body>
 
 </html>

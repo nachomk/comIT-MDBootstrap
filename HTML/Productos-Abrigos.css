@@ -1,0 +1,96 @@
+h1 {
+    color: #146C94;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 55px;
+    margin-top: 30px;
+    display: inline;
+}
+body {
+    background: #EDE9D5;
+}
+h2 {
+    margin-top: 18px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 34px;
+    color: #146C94;
+}
+h4 {
+    margin-left: 60px;
+    color: blue;
+    display: inline;
+}
+#logo {
+    width: 100px;
+    height: 50px;
+}
+aside {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+input {
+    margin-left: 90px;
+}
+#checkbox {
+    display: inline;
+}
+
+#colores {
+    display: inline;
+}
+#marcas {
+    display: inline;
+}
+footer {
+    margin-top: 800px;
+}
+#imagen-producto1, #imagen-producto2, #imagen-producto3, #imagen-producto4, #imagen-producto5 {
+    width: 160px;
+    height: 180px;
+}
+#producto1 {
+    height: 400px;
+    width: 230px;
+    margin-left: 400px;
+    margin-top: -600px;
+}
+#boton-producto1 {
+    margin-top: 70px;
+}
+#producto2 {
+    height: 400px;
+    width: 230px;
+    margin-left: 650px;
+    margin-top: -400px;
+}
+#boton-producto2 {
+    margin-top: 90px;
+}
+#producto3 {
+    height: 400px;
+    width: 230px;
+    margin-left: 900px;
+    margin-top: -400px;
+}
+#boton-producto3 {
+    margin-top: 65px;
+}
+#producto4 {
+    height: 400px;
+    width: 230px;
+    margin-top: -400px;
+    margin-left: 1150px;
+}
+#boton-producto4 {
+    margin-top: 65px;
+}
+#producto5 {
+    height: 400px;
+    width: 230px;
+    margin-top: -400px;
+    margin-left: 1400px;
+}
+#boton-producto5 {
+    margin-top: 90px;
+}

@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Mauro Daniel Viveros (TRY Ubbe)">
-  <meta name="description" content="Repositorio inicial de un Projecto Vanilla con MDBootstrap">
-  <meta name="keywords" content="comit, mdbootstrap, bootstrap, js, css, html, projecto">
-  <link rel="icon" href="/media/titulo.jpeg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <link rel="stylesheet" href="/diseño/css/mdb.min.css">
-  <link rel="stylesheet" href="./assets/css/styles.css">
-  <link rel="stylesheet" href="Productos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mauro Daniel Viveros (TRY Ubbe)">
+    <meta name="description" content="Repositorio inicial de un Projecto Vanilla con MDBootstrap">
+    <meta name="keywords" content="comit, mdbootstrap, bootstrap, js, css, html, projecto">
+    <link rel="icon" href="/media/titulo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="/diseño/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="Producto-Pelotas.css">
 
-  <script src="/diseño/js/mdb.min.js" defer></script>
-  <script src="./assets/js/main.js" defer></script>
-
-
-  <title>Productos</title>
+  
+    <script src="/diseño/js/mdb.min.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
+  
+    <title>Pelotas</title>
 </head>
-
 <body>
-  <!--HEADER-->
+    <!--HEADER-->
   <header>
     <!--SOBRE LA EMPRESA-->
 
@@ -100,7 +98,6 @@
       <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
-
   </header>
   <h1 id="Filtros">FILTROS</h1>
   <aside>
@@ -111,23 +108,23 @@
     <section id="checkbox">
       <div>
         <a href="/HTML/Productos-Camisetas.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel"
-            value="" aria-label="..." /><b>Camisetas</b></a>
+            value="" aria-label="..."  disabled /><b>Camisetas</b></a>
       </div>
       <div>
-        <a href="/HTML/Productos-Botines.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value=""
-            aria-label="..." /><b>Botines</b></a>
+        <a href="/HTML/Productos-Botines.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2"
+            value="" aria-label="..." disabled /><b>Botines</b></a>
       </div>
       <div>
-        <a href="/HTML/Productos-Pelotas.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel" value=""
-            aria-label="..." /><b>Pelotas</b></a>
+        <a href="/HTML/Productos-Pelotas.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel"
+            value="" aria-label="..."checked disabled /><b>Pelotas</b></a>
       </div>
       <div>
-        <a href="/HTML/Productos-Abrigos.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2" value=""
-            aria-label="..." /><b>Abrigos</b></a>
+        <a href="/HTML/Productos-Abrigos.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2"
+            value="" aria-label="..." disabled /><b>Abrigos</b></a>
       </div>
       <div>
         <a href="/HTML/Productos-Conjuntos.html"><input class="form-check-input" type="checkbox" id="checkboxNoLabel2"
-            value="" aria-label="..." /><b>Conjuntos</b></a>
+            value="" aria-label="..." disabled /><b>Conjuntos</b></a>
       </div>
     </section>
 
@@ -205,11 +202,56 @@
     </section>
   </aside>
 
-  <section>
-    <article>
-      <h3>Seleccionar la categoría que deseé comprar.</h3>
-    </article>
-  </section>
+  <div class="card text-center" id="producto1">
+    <div class="card-body">
+      <img src="/media/Pelotas/pelota.jpg" alt="" id="imagen-producto1">
+      <b>
+        <p class="card-text">Pelota Adidas Selección</p>
+      </b>
+      <a href="#" class="btn btn-primary" id="boton-producto1">Comprar</a>
+    </div>
+  </div>
+
+  <div class="card text-center" id="producto2">
+    <div class="card-body">
+      <img src="/media/Pelotas/pelotaAdidas.jpg" alt="" id="imagen-producto2">
+      <b>
+        <p class="card-text">Pelota Qatar Celeste</p>
+      </b>
+      <a href="#" class="btn btn-primary" id="boton-producto2">Comprar</a>
+    </div>
+  </div>
+
+  <div class="card text-center" id="producto3">
+    <div class="card-body">
+      <img src="/media/Pelotas/pelotanike.jpg" alt="" id="imagen-producto3">
+      <b>
+        <p class="card-text">Pelota Nike</p>
+      </b>
+      <a href="#" class="btn btn-primary" id="boton-producto3">Comprar</a>
+    </div>
+  </div>
+
+  <div class="card text-center" id="producto4">
+    <div class="card-body">
+      <img src="/media/Pelotas/pelotaNikeB.jpg" alt="" id="imagen-producto4">
+      <b>
+        <p class="card-text">Pelota Nike Blanca</p>
+      </b>
+      <a href="#" class="btn btn-primary" id="boton-producto4">Comprar</a>
+    </div>
+  </div>
+
+  <div class="card text-center" id="producto5">
+    <div class="card-body">
+      <img src="/media/Pelotas/pelotaPSG.jpg" alt="" id="imagen-producto5">
+      <b>
+        <p class="card-text">Pelota Nike PSG</p>
+      </b>
+      <a href="#" class="btn btn-primary" id="boton-producto5">Comprar</a>
+    </div>
+  </div>
+
 
   <footer class="bg-light text-center text-white" id="footer">
     <!-- Grid container -->
@@ -253,5 +295,4 @@
     <!-- Copyright -->
   </footer>
 </body>
-
 </html>

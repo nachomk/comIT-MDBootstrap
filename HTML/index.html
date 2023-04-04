@@ -1,118 +1,285 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Mauro Daniel Viveros (TRY Ubbe)">
-    <meta name="description" content="Repositorio inicial de un Projecto Vanilla con MDBootstrap">
-    <meta name="keywords" content="comit, mdbootstrap, bootstrap, js, css, html, projecto">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mauro Daniel Viveros (TRY Ubbe)">
+  <meta name="description" content="Repositorio inicial de un Projecto Vanilla con MDBootstrap">
+  <meta name="keywords" content="comit, mdbootstrap, bootstrap, js, css, html, projecto">
 
-    <title>Tienda Basket</title>
+  <title>FootStore</title>
 
-    <link rel="icon" href="/media/pelota.ico" >
+  <link rel="icon" href="/media/titulo.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="/diseño/css/mdb.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="index.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <link rel="stylesheet" href="/libs/mdb5/css/mdb.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="index.css">
-
-    <script src="/libs/mdb5/js/mdb.min.js" defer></script>
-    <script src="./assets/js/main.js" defer></script>
+  <script src="/diseño/js/mdb.min.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
 </head>
+
 <body>
-    <header>
-      <h1 class="Titulo_Pagina">Tienda Basket</h1>
-      <div id="Links">
-      <a href="" class="Inicio">Inicio</a>
-      <a href="/Productos.html" class="Productos">Productos</a>
-      <a href="/AcercaDe.html" class="Acerca_De">Acerca de</a>
-      <a href="/FAQ.html" class="FAQ">FAQ</a>
-      <a href="/Contacto.html" class="Contacto">Contacto</a>
-      </div>
-    </header>
+  <!--HEADER-->
+  <header>
+    <!--SOBRE LA EMPRESA-->
 
-    <main class="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-mdb-target="#carouselExampleIndicators"
-            data-mdb-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-mdb-target="#carouselExampleIndicators"
-            data-mdb-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-mdb-target="#carouselExampleIndicators"
-            data-mdb-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-mdb-target="#carouselExampleIndicators"
-            data-mdb-slide-to="3"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 4"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/media/kansas.jpg" class="d-block w-100" alt="Wild Landscape"/>
-          </div>
-          <div class="carousel-item">
-            <img src="/media/basket1.jpg" class="d-block w-100" alt="Camera"/>
-          </div>
-          <div class="carousel-item">
-            <img src="/media/curry.jpg" class="d-block w-100" alt="Exotic Fruits"/>
-          </div>
-          <div class="carousel-item">
-            <img src="/media/harden.jpg" class="d-block w-100" alt="Exotic Fruits"/>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
         </button>
-        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="/HTML/index.html">
+            <img src="/media/logo.png" height="15" alt="MDB Logo" loading="lazy" id="logo" />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/HTML/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/HTML/Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/HTML/AcercaDe.html">Acerca De</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/HTML/FAQ.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/HTML/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <div id="Descripcion">
+          <h1 class="animate__bounceIn">La tienda número 1° de Productos para Futbol en la Argentina </h1>
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-cart-shopping"></i>
+          </a>
+
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+              role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-address-card"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+              <li>
+                <a class="dropdown-item" href="/HTML/MiPerfil.html">Mi Perfil</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href=""></a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="">Cerrar Sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
       </div>
-    </main>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
 
-    <h2>Categorías</h2>
+  </header>
 
-    <div class="Zapatillas"><a href="/HTML/Productos.html">Zapatillas</a>
-      <img src="/media/jordans.jpg" alt="" id="Jordans">
+  <!--CODIGO DE CARRUSEL-->
+  <main class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="3" class="active"
+          aria-current="true" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/media/bolea.jpg" class="d-block w-100" alt="Wild Landscape" />
+        </div>
+        <div class="carousel-item">
+          <img src="/media/nike.jpg" class="d-block w-100" alt="Camera" />
+        </div>
+        <div class="carousel-item">
+          <img src="/media/champions.jpg" class="d-block w-100" alt="Exotic Fruits" />
+        </div>
+        <div class="carousel-item">
+          <img src="/media/messi.jpg" class="d-block w-100" alt="Exotic Fruits" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators"
+        data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators"
+        data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    <section>
 
-    <div class="Balones"><a href="/HTML/Productos.html">Balones</a>
-      <img src="/media/pelotaNba.jpg" alt="" id="Wilson">
+      <h2>Categorías</h2>
+
+      <!--CATALOGOS DE PRENDAS-->
+      <!--CAMISETAS-->
+      <article class="row">
+        <div class="col">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/media/camsieta.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Camisetas</h5>
+              <p class="card-text">Camisetas de Europa, América, Selecciones Nacionales.</p>
+              <a href="/HTML/Productos.html" class="btn btn-primary" id="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!--BOTINES-->
+        <div class="col">
+          <div class="card" id="Balones">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/media/Botines/botin.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Botines</h5>
+              <p class="card-text">Botines con y sin medias. Talle niño y adulto.</p>
+              <a href="/HTML/Productos.html" class="btn btn-primary" id="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!--CONJUNTOS-->
+        <div class="col">
+          <div class="card" id="Conjuntos">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/media/conjunto.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Conjuntos</h5>
+              <p class="card-text">Equipo completo de Equipo o Seleccion Nacionales.</p>
+              <a href="/HTML/Productos.html" class="btn btn-primary" id="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!--PELOTAS-->
+        <div class="col">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/media/Pelotas/pelota.jpg" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pelotas</h5>
+              <p class="card-text">Pelotas de talla Grande, Mediano y Pequeño.</p>
+              <a href="/HTML/Productos.html" class="btn btn-primary" id="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!--ABRIGOS Y CAMPERAS-->
+        <div class="col">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/media/campera.jpg" class="img-fluid" id="campera" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Abrigos</h5>
+              <p class="card-text">Camperones, buzos y camperas. Talle adulto y niño.</p>
+              <a href="/HTML/Productos.html" class="btn btn-primary" id="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+  <!--FOOTER-->
+
+  <footer class="bg-light text-center text-white" id="footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+
+        <!-- Twitter -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+        href="https://twitter.com/Ignacio05390972" role="button"><i class="fab fa-twitter"></i></a>
+        
+        <!-- Google -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+          href="https://myaccount.google.com/?hl=es_419" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+          href="https://www.instagram.com/nach_mk/" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+          href="https://www.linkedin.com/in/ignacio-martinez-katzky-75a720229/" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+        <!-- Github -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/nachomk"
+          role="button"><i class="fab fa-github"></i></a>
+        <!--Whastapp-->
+        <a class="btn text-white btn-floating m-1" style="background-color: #25d366;"
+          href="https://wa.me/011158076415?text=Hola!!! Me gustaria veriguar sobre la prenda: (indicar prenda)"
+          role="button"><i class="fab fa-whatsapp"></i></a>
+      </section>
+      <!-- Section: Social media -->
     </div>
+    <!-- Grid container -->
 
-    <div class="Remeras"><a href="/HTML/Productos.html">Remeras</a>
-      <img src="/media/remeras.jpg" alt="" id="Remera_Bulls">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #282c31">
+      © 2023 Copyright:
+      <a class="text-white" href="">FootStore Argentina</a>
     </div>
-
-    <div class="Gorros"><a href="/HTML/Productos.html">Gorros</a>
-      <img src="/media/gorra.jpg" alt="" id="Gorra_Bulls">
-    </div>
-
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <p class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            <span>Derechos reservados &copy;</span>
-            <a class="fw-bold" href="https://www.github.com/maurodviveros" target="_blank" data-mdb-ripple-color="dark">Mauro Daniel Viveros</a>
-        </p>
-    </footer>
+    <!-- Copyright -->
+  </footer>
 </body>
+
 </html>
